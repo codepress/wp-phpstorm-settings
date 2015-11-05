@@ -1,7 +1,7 @@
 PhpStorm PHP and WordPress Live Templates
 ==========================================
 
-This are our custom WordPress live templates for PhpStorm. We have devided them in 3 groups:
+These are our custom WordPress live templates for PhpStorm. We have devided them in two groups:
 - PHP `php.xml`
 - WordPress `wordpress.xml`
 
