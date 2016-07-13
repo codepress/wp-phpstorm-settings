@@ -1,6 +1,11 @@
 <templateSet group="JavaScript">
   <template name="clog" value="console.log( $var$ );" description="console.log" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
   </template>
 </templateSet>
