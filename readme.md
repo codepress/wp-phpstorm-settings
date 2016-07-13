@@ -19,7 +19,7 @@ These are our custom WordPress live templates for PhpStorm. We have devided them
 * Symlink each of the files from `~/Library/Preferences/WebIde{xx}/templates` directory:
 
 	```
-	$ cd ~/Library/Preferences/WebIde{xx}/templates
+	$ cd ~/Library/Preferences/PhpStorm201{x}.{x}/templates
 	$ ln -s /path/to/repo/php.xml
 	$ ln -s /path/to/repo/wordpress.xml
 	```

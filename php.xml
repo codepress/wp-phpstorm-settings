@@ -9,7 +9,6 @@
       <option name="XML_TEXT" value="false" />
       <option name="JSON" value="false" />
       <option name="SQL" value="false" />
-      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -29,7 +28,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="pre" value="echo '&lt;pre&gt;'; print_r( $var$ ); echo '&lt;/pre&gt;';" description="'print_r' statement wrapped in &lt;pre&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="pr" value="echo '&lt;pre&gt;'; print_r( $var$ ); echo '&lt;/pre&gt;';" description="'print_r' statement wrapped in &lt;pre&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -39,7 +38,6 @@
       <option name="XML_TEXT" value="false" />
       <option name="JSON" value="false" />
       <option name="SQL" value="false" />
-      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -69,7 +67,6 @@
       <option name="XML_TEXT" value="false" />
       <option name="JSON" value="false" />
       <option name="SQL" value="false" />
-      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -99,7 +96,6 @@
       <option name="XML_TEXT" value="false" />
       <option name="JSON" value="false" />
       <option name="SQL" value="false" />
-      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
