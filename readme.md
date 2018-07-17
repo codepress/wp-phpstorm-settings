@@ -8,7 +8,7 @@ These are our custom WordPress live templates for PhpStorm. We have devided them
 ## Usage
 
 * Download the files `php.xml` and `wordpress.xml`
-* Copy them to `~/Library/Preferences/WebIde{xx}/templates` directory.
+* Copy them to `~/Library/Preferences/PHPStorm{xx}/templates` directory.
 * Restart PhpStorm.
 * The two groups 'PHP' and WordPress' will be activated by default. Disable any group or live template from PHPStorm Preferences > Editor > Live Templates.
 * A list of available abbreviations that will trigger a live template can be found by selecting 'PHP' or WordPress' in PHPStorm Preferences > Editor > Live Templates.
@@ -16,7 +16,7 @@ These are our custom WordPress live templates for PhpStorm. We have devided them
 ## Development
 
 * Clone the repo.
-* Symlink each of the files from `~/Library/Preferences/WebIde{xx}/templates` directory:
+* Symlink each of the files from `~/Library/Preferences/PHPStorm{xx}/templates` directory:
 
 	```
 	$ cd ~/Library/Preferences/PhpStorm201{x}.{x}/templates
