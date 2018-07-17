@@ -3,6 +3,7 @@
 1. [Live Templates](#live-templates)
 2. [Coding Styles](#coding-styles)
 3. [Code Inspections](#code-inspections)
+4. Keymaps
 
 # Live Templates
 
@@ -30,7 +31,6 @@ These are our custom WordPress live templates for PhpStorm. We have devided them
 	```
 
 * Restart PhpStorm.
-* Make changes, submit pull requests etc.
 
 # Coding Styles
 
@@ -39,7 +39,7 @@ This is our own WordPress coding styles for PhpStorm, forked from the WordPress.
 ## Usage
 
 * Download the `codestyles/CodepressWordPress.xml` file.
-* Copy it to `~/Library/Preferences/WebIde{xx}/codestyles` directory.
+* Copy it to `~/Library/Preferences/PhpStorm201{x}.{x}/codestyles` directory.
 * Once downloaded activate the scheme by selecting it in PHPStorm Preferences > Editor > Code Style.
 
 ## Development
@@ -53,8 +53,6 @@ This is our own WordPress coding styles for PhpStorm, forked from the WordPress.
 	```
 
 * Restart PhpStorm.
-* Activate the scheme by selecting 'Codepress WordPress' in PHPStorm Preferences > Editor > Code Style.
-* Make changes, submit pull requests etc.
 
 # Code Inspections
 
@@ -64,7 +62,7 @@ This is our own WordPress code inspections format for PhpStorm
 
 * Download the `inspectins/Codepress.xml` file.
 * Copy it to `~/Library/Preferences/PhpStorm{xx}/inspection` directory.
-* Once downloaded activate the scheme by selecting it in PHPStorm Preferences > Editor > Inspections.
+* Once downloaded activate the scheme by selecting 'Codepress' in PHPStorm Preferences > Editor > Inspections.
 
 ## Development
 
@@ -77,5 +75,25 @@ This is our own WordPress code inspections format for PhpStorm
 	```
 
 * Restart PhpStorm.
-* Activate the scheme by selecting 'Codepress' in PHPStorm Preferences > Editor > Inspections.
-* Make changes, submit pull requests etc.
+
+# Keymaps
+
+This are our own PHP keymaps for PhpStorm taken from the Laracasts series
+
+## Usage
+
+* Download the `keymaps/Laracasts.xml` file.
+* Copy it to `~/Library/Preferences/PhpStorm201{x}.{x}/keymaps` directory.
+* Once downloaded activate the keymap by selecting 'Laracasts' in PHPStorm Preferences > Keymap.
+
+## Development
+
+* Clone the repo.
+* Symlink the `Laracasts.xml` file in the code `~/Library/Preferences/PhpStorm201{x}.{x}/keymaps` directory:
+
+	```
+	$ cd ~/Library/Preferences/PhpStorm201{x}.{x}/keymaps
+	$ ln -s /path_to_repo/keymaps/Laracasts.xml
+	```
+
+* Restart PhpStorm.
