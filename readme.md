@@ -3,7 +3,7 @@
 1. [Live Templates](#live-templates)
 2. [Coding Styles](#coding-styles)
 3. [Code Inspections](#code-inspections)
-4. Keymaps
+4. [Keymaps](#keymaps)
 
 # Live Templates
 
