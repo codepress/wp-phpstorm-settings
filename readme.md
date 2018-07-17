@@ -4,6 +4,7 @@
 2. [Coding Styles](#coding-styles)
 3. [Code Inspections](#code-inspections)
 4. [Keymaps](#keymaps)
+5. [File & Code Template](#file-and-code-templates)
 
 # Live Templates
 
@@ -48,6 +49,16 @@ This are our own PHP keymaps for PhpStorm taken from the Laracasts series
 * Download the `keymaps/Laracasts.xml` file.
 * Copy it to `~/Library/Preferences/PhpStorm201{x}.{x}/keymaps` directory.
 * Activate the keymap by selecting 'Laracasts' in PHPStorm Preferences > Keymap.
+
+# File and Code Templates
+
+This are our own PHP File templates for PhpStorm. 
+
+## Usage
+
+* Download the content of the `fileTemplates` directory.
+* Copy it to `~/Library/Preferences/PhpStorm201{x}.{x}/fielTemplates` directory.
+* Restart PhpStorm.
 
 # Development
 
