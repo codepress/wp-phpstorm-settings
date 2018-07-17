@@ -19,19 +19,6 @@ These are our custom WordPress live templates for PhpStorm. We have devided them
 * The two groups 'PHP' and WordPress' will be activated by default. Disable any group or live template from PHPStorm Preferences > Editor > Live Templates.
 * A list of available abbreviations that will trigger a live template can be found by selecting 'PHP' or WordPress' in PHPStorm Preferences > Editor > Live Templates.
 
-## Development
-
-* Clone the repo.
-* Symlink each of the files from `~/Library/Preferences/PhpStorm201{x}.{x}/templates` directory:
-
-	```
-	$ cd ~/Library/Preferences/PhpStorm201{x}.{x}/templates
-	$ ln -s /path_to_repo/templates/php.xml
-	$ ln -s /path_to_repo/templates/wordpress.xml
-	```
-
-* Restart PhpStorm.
-
 # Coding Styles
 
 This is our own WordPress coding styles for PhpStorm, forked from the WordPress.xml packaged with PhpStorm
@@ -40,19 +27,7 @@ This is our own WordPress coding styles for PhpStorm, forked from the WordPress.
 
 * Download the `codestyles/CodepressWordPress.xml` file.
 * Copy it to `~/Library/Preferences/PhpStorm201{x}.{x}/codestyles` directory.
-* Once downloaded activate the scheme by selecting it in PHPStorm Preferences > Editor > Code Style.
-
-## Development
-
-* Clone the repo.
-* Symlink the `CodepressWordPress.xml` file in the code `~/Library/Preferences/PhpStorm201{x}.{x}/codestyles` directory:
-
-	```
-	$ cd ~/Library/Preferences/PhpStorm201{x}.{x}/codestyles
-	$ ln -s /path_to_repo/codestyles/CodepressWordPress.xml
-	```
-
-* Restart PhpStorm.
+* Activate the scheme by selecting it in PHPStorm Preferences > Editor > Code Style.
 
 # Code Inspections
 
@@ -60,21 +35,9 @@ This is our own WordPress code inspections format for PhpStorm
 
 ## Usage
 
-* Download the `inspectins/Codepress.xml` file.
+* Download the `inspection/Codepress.xml` file.
 * Copy it to `~/Library/Preferences/PhpStorm{xx}/inspection` directory.
-* Once downloaded activate the scheme by selecting 'Codepress' in PHPStorm Preferences > Editor > Inspections.
-
-## Development
-
-* Clone the repo.
-* Symlink the `Codepress.xml` file in the code `~/Library/Preferences/PhpStorm{xx}/inspection` directory:
-
-	```
-	$ cd ~/Library/Preferences/PhpStorm{xx}/inspection/inspection
-	$ ln -s /path_to_repo/inspections/Codepress.xml
-	```
-
-* Restart PhpStorm.
+* Activate the scheme by selecting 'Codepress' in PHPStorm Preferences > Editor > Inspections.
 
 # Keymaps
 
@@ -84,16 +47,17 @@ This are our own PHP keymaps for PhpStorm taken from the Laracasts series
 
 * Download the `keymaps/Laracasts.xml` file.
 * Copy it to `~/Library/Preferences/PhpStorm201{x}.{x}/keymaps` directory.
-* Once downloaded activate the keymap by selecting 'Laracasts' in PHPStorm Preferences > Keymap.
+* Activate the keymap by selecting 'Laracasts' in PHPStorm Preferences > Keymap.
 
-## Development
+# Development
 
 * Clone the repo.
-* Symlink the `Laracasts.xml` file in the code `~/Library/Preferences/PhpStorm201{x}.{x}/keymaps` directory:
+* Symlink the file to the `~/Library/Preferences/PhpStorm{xx}/<directory>` directory:
 
 	```
-	$ cd ~/Library/Preferences/PhpStorm201{x}.{x}/keymaps
-	$ ln -s /path_to_repo/keymaps/Laracasts.xml
+	$ cd ~/Library/Preferences/PhpStorm{xx}/<directory>
+	$ ln -s /path_to_repo/<directory>/<filename>.xml
 	```
 
 * Restart PhpStorm.
+* Make changes, submit pull requests etc.
