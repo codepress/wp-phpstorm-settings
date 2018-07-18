@@ -2,117 +2,45 @@
   <template name="prx" value="echo '&lt;pre&gt;'; print_r( $var$ ); echo '&lt;/pre&gt;'; exit;" description="'print_r' statement wrapped in &lt;pre&gt; with exit" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="Twig" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
       <option name="PHP String Literal" value="false" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="pr" value="echo '&lt;pre&gt;'; print_r( $var$ ); echo '&lt;/pre&gt;';" description="'print_r' statement wrapped in &lt;pre&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="Twig" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
       <option name="PHP String Literal" value="false" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ecob" value="echo $var$ . &quot;&lt;br/&gt;\n&quot;;" description="'echo' statement with line break" toReformat="true" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="Twig" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
       <option name="PHP String Literal" value="false" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="met" value="public function $method$(){&#10;&#9;$END$&#10;}" description="Public Method" toReformat="true" toShortenFQNames="true">
     <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="Twig" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
       <option name="PHP String Literal" value="false" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="html" value="&lt;!DOCTPYE html&gt;&#10;&lt;html&gt;&#10;&lt;head&gt;&#10;    &lt;title&gt;&lt;/title&gt;&#10; &lt;/head&gt;&#10; &lt;body&gt;&#10;    $END$&#10; &lt;/body&gt;&#10; &lt;/html&gt;" description="HTML block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="pri" value="/** @var $type$ */&#10;private $var$;&#10;&#10;$END$" description="Private var with doc block" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="&quot;string&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
     </context>
   </template>
 </templateSet>
