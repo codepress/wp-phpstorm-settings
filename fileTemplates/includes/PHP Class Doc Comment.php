@@ -1,4 +1,3 @@
 /**
-#if (${NAMESPACE}) * @package ${NAMESPACE}
-#end
+ * @since NEWVERSION
  */
