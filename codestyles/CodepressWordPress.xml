@@ -1,10 +1,15 @@
-<code_scheme name="Codepress WordPress">
+<code_scheme name="Codepress WordPress" version="173">
   <option name="AUTODETECT_INDENTS" value="false" />
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="RIGHT_MARGIN" value="1000" />
   <option name="HTML_ATTRIBUTE_WRAP" value="0" />
   <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
   <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="h1,h2,h3,h4,h5,h6,p,use,title" />
+  <HTMLCodeStyleSettings>
+    <option name="HTML_ATTRIBUTE_WRAP" value="0" />
+    <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
+    <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="h1,h2,h3,h4,h5,h6,p,use,title" />
+  </HTMLCodeStyleSettings>
   <JSCodeStyleSettings>
     <option name="SPACE_BEFORE_PROPERTY_COLON" value="true" />
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
@@ -18,15 +23,14 @@
     <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
-    <option name="BLANK_LINE_BEFORE_RETURN_STATEMENT" value="true" />
+    <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
     <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
     <option name="SPACES_AROUND_VAR_WITHIN_BRACKETS" value="true" />
+    <option name="BLANK_LINES_AROUND_CONSTANTS" value="1" />
+    <option name="KEEP_BLANK_LINES_AFTER_LBRACE" value="1" />
     <option name="SPACE_BEFORE_UNARY_NOT" value="true" />
     <option name="SPACE_AFTER_UNARY_NOT" value="true" />
   </PHPCodeStyleSettings>
-  <SqlCodeStyleSettings>
-    <option name="KEYWORD_CASE" value="2" />
-  </SqlCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
@@ -69,6 +73,7 @@
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
+    <option name="BLANK_LINES_BEFORE_PACKAGE" value="0" />
     <option name="BLANK_LINES_AFTER_PACKAGE" value="1" />
     <option name="BLANK_LINES_AROUND_FIELD" value="1" />
     <option name="CLASS_BRACE_STYLE" value="1" />
