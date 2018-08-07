@@ -52,7 +52,7 @@ This are our own PHP keymaps for PhpStorm taken from the Laracasts series
 
 # File and Code Templates
 
-This are our own PHP File templates for PhpStorm. 
+This are our own PHP File templates for PhpStorm.
 
 ## Usage
 
@@ -67,7 +67,7 @@ This are our own PHP File templates for PhpStorm.
 
 	```
 	$ cd ~/Library/Preferences/PhpStorm{xx}/<directory>
-	$ ln -s /path_to_repo/<directory>/<filename>.xml
+	$ ln -s /<path_to_repo>/<filename>.xml
 	```
 
 * Restart PhpStorm.
