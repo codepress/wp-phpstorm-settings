@@ -23,22 +23,80 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="met" value="public function $method$(){&#10;&#9;$END$&#10;}" description="Public Method" toReformat="true" toShortenFQNames="true">
-    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-      <option name="PHP Comment" value="false" />
-      <option name="PHP String Literal" value="false" />
-    </context>
-  </template>
-  <template name="html" value="&lt;!DOCTPYE html&gt;&#10;&lt;html&gt;&#10;&lt;head&gt;&#10;    &lt;title&gt;&lt;/title&gt;&#10; &lt;/head&gt;&#10; &lt;body&gt;&#10;    $END$&#10; &lt;/body&gt;&#10; &lt;/html&gt;" description="HTML block" toReformat="false" toShortenFQNames="true">
+  <template name="html" value="&lt;!DOCTPYE html&gt;&#10;&lt;html&gt;&#10;&lt;head&gt;&#10;    &lt;title&gt;$TITLE$&lt;/title&gt;&#10; &lt;/head&gt;&#10; &lt;body&gt;&#10;    $END$&#10; &lt;/body&gt;&#10; &lt;/html&gt;" description="HTML block" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="pri" value="/** @var $type$ */&#10;private $var$;&#10;&#10;$END$" description="Private var with doc block" toReformat="true" toShortenFQNames="true">
+  <template name="profs" value="protected static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="protected static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="prifs" value="private static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="pri" value="/** @var $type$ */&#10;private $$$var$;&#10;&#10;$END$" description="Private var with doc block" toReformat="true" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="&quot;string&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="pro" value="/** @var $type$ */&#10;protected $$$var$;&#10;&#10;$END$" description="Protected var with doc block" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="&quot;string&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="_c" value="public function __construct($END$) {&#10;    $END$&#10;}" description="Constructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="testcase" value="class $ExampleTest$ extends PHPUnit_Framework_TestCase {&#10;&#10;&#9;/** @test */&#10;&#9;function $MethodTest$() {&#10;        $END$&#10;&#9;}&#10;&#10;}" description="PHPUnit Testcase" toReformat="true" toShortenFQNames="true">
+    <variable name="ExampleTest" expression="ExampleTest" defaultValue="&quot;ExampleTest&quot;" alwaysStopAt="true" />
+    <variable name="MethodTest" expression="" defaultValue="&quot;is_&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="pub" value="/** @var $type$ */&#10;public $$$var$;&#10;&#10;$END$" description="Public var with doc block" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="&quot;string&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="met" value="public function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="mets" value="public static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="dd" value="var_dump( $VAR$ ); die(1);" description="Dump and die" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="imet" value="public function $NAME$($PARAMETERS$);" description="interface public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
