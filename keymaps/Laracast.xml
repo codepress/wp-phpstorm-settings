@@ -3,22 +3,46 @@
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
   <action id="ActivateFindToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta alt t" />
+  </action>
   <action id="ActivatenpmToolWindow">
     <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="ChangesView.UnshelveSilently" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
     <keyboard-shortcut first-keystroke="meta divide" />
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="ComposerAddDependencyAction">
+    <keyboard-shortcut first-keystroke="ctrl meta alt c" />
+  </action>
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.Jdbc.Execute" />
   <action id="Console.TableResult.DeleteRows">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="meta x" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
@@ -32,6 +56,15 @@
   </action>
   <action id="NextOccurence" />
   <action id="ParameterInfo" />
+  <action id="PhpGenerateConstructor">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="PhpGenerateGetters">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="PhpGenerateGettersAndSetters">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="Refresh" />
   <action id="Replace" />
   <action id="Rerun" />
@@ -41,9 +74,15 @@
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
-  <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="meta alt 2" />
+  <action id="ShowUmlDiagramPopup" />
+  <action id="ShowUsages">
+    <keyboard-shortcut first-keystroke="meta alt f7" />
+    <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
+  <action id="SurroundWith" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
@@ -62,9 +101,19 @@
   <action id="SynchronizeCurrentFile">
     <keyboard-shortcut first-keystroke="ctrl meta u" />
   </action>
+  <action id="TabShiftActions.ShiftLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+  </action>
+  <action id="TabShiftActions.ShiftRight">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="ViewSource" />
 </keymap>

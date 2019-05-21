@@ -3,84 +3,29 @@
     <variable name="hook" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="callback" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="aam" value="add_action( '$hook$', array( $class$, '$method$' ) );$END$" description="add_action &gt; method" toReformat="false" toShortenFQNames="true">
+  <template name="aam" value="add_action( '$hook$', array( $class$, '$method$' ) );$END$" description="add_action &gt; method" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="hook" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="class" expression="&quot;$this&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="method" expression="hook" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="afm" value="add_filter( '$hook$', array( $class$, '$method$' ) );$END$" description="add_filter &gt; method" toReformat="false" toShortenFQNames="true">
+  <template name="afm" value="add_filter( '$hook$', array( $class$, '$method$' ) );$END$" description="add_filter &gt; method" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="hook" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="class" expression="&quot;$this&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="method" expression="hook" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="ea" value="esc_attr( $SELECTION$ )" description="esc_attr" toReformat="false" toShortenFQNames="true">
+  <template name="ea" value="esc_attr( $SELECTION$ )" description="esc_attr" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
-      <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="wpa" value="$$$args$ = wp_parse_args( $$$source$, array(&#10;&#9;$key$ =&gt; $value$,&#10;) );" description="wp_parse_args" toReformat="true" toShortenFQNames="true">
@@ -89,85 +34,30 @@
     <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="af" value="add_filter( '$hook$', '$callback$' );&#10;$END$" description="add_filter" toReformat="false" toShortenFQNames="true">
     <variable name="hook" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="callback" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="__" value="__( $SELECTION$, '$textdomain$' )" description="__" toReformat="false" toShortenFQNames="true">
     <variable name="textdomain" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="aafu" value="add_action( '$hook$', function () {&#10;&#9;$END$&#10;} );" description="add_action &gt; closure" toReformat="false" toShortenFQNames="true">
+  <template name="aafu" value="add_action( '$hook$', function () {&#10;&#9;$END$&#10;} );" description="add_action &gt; closure" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="hook" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="rpt" value="register_post_type( '$SLUG$', array(&#10;&#9;'description'          =&gt; '$DESCRIPTION$',&#10;&#9;'labels'               =&gt; array(&#10;&#9;&#9;'name'               =&gt; _x( '$PLURAL$', 'post type general name', '$DOMAIN$' ),&#10;&#9;&#9;'singular_name'      =&gt; _x( '$SINGULAR$', 'post type singular name', '$DOMAIN$' ),&#10;&#9;&#9;'menu_name'          =&gt; _x( '$PLURAL$', 'admin menu', '$DOMAIN$' ),&#10;&#9;&#9;'name_admin_bar'     =&gt; _x( '$SINGULAR$', 'add new $SLUG$ on admin bar', '$DOMAIN$' ),&#10;&#9;&#9;'add_new'            =&gt; _x( 'Add New', 'post_type', '$DOMAIN$' ),&#10;&#9;&#9;'add_new_item'       =&gt; __( 'Add New $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'edit_item'          =&gt; __( 'Edit $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'new_item'           =&gt; __( 'New $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'view_item'          =&gt; __( 'View $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'search_items'       =&gt; __( 'Search $PLURAL$', '$DOMAIN$' ),&#10;&#9;&#9;'not_found'          =&gt; __( 'No $PLURALLOWERCASE$ found.', '$DOMAIN$' ),&#10;&#9;&#9;'not_found_in_trash' =&gt; __( 'No $PLURALLOWERCASE$ found in Trash.', '$DOMAIN$' ),&#10;&#9;&#9;'parent_item_colon'  =&gt; __( 'Parent $SINGULAR$:', '$DOMAIN$' ),&#10;&#9;&#9;'all_items'          =&gt; __( 'All $PLURAL$', '$DOMAIN$' ),&#10;&#9;),&#10;&#9;'public'               =&gt; $PUBLIC$,&#10;&#9;'hierarchical'         =&gt; $HIERARCHICAL$,&#10;&#9;'exclude_from_search'  =&gt; $NOSEARCH$,&#10;&#9;'publicly_queryable'   =&gt; $QUERYABLE$,&#10;&#9;'show_ui'              =&gt; $UI$,&#10;&#9;'show_in_menu'         =&gt; $MENU$,&#10;&#9;'show_in_nav_menus'    =&gt; $NAVMENU$,&#10;&#9;'show_in_admin_bar'    =&gt; $ADMINBAR$,&#10;&#9;'menu_position'        =&gt; $MENUPOS$,&#10;&#9;'menu_icon'            =&gt; $ICON$,&#10;&#9;'capability_type'      =&gt; '$CAPABILITY$',&#10;&#9;'capabilities'         =&gt; array(),&#10;&#9;'map_meta_cap'         =&gt; null,&#10;&#9;'supports'             =&gt; array( 'title', 'editor' ),&#10;&#9;'register_meta_box_cb' =&gt; $METABOX$,&#10;&#9;'taxonomies'           =&gt; array(),&#10;&#9;'has_archive'          =&gt; $ARCHIVE$,&#10;&#9;'rewrite'              =&gt; array(&#10;&#9;&#9;'slug'       =&gt; '$SLUG$',&#10;&#9;&#9;'with_front' =&gt; $WITHFRONT$,&#10;&#9;&#9;'feeds'      =&gt; $FEEDS$,&#10;&#9;&#9;'pages'      =&gt; $PAGES$,&#10;&#9;),&#10;&#9;'query_var'            =&gt; $QUERYVAR$,&#10;&#9;'can_export'           =&gt; $EXPORT$,&#10;) );&#10;$END$" description="register_post_type" toReformat="true" toShortenFQNames="true">
+  <template name="rpt" value="register_post_type( '$SLUG$', array(&#10;&#9;'description'          =&gt; '$DESCRIPTION$',&#10;&#9;'labels'               =&gt; array(&#10;&#9;&#9;'name'               =&gt; _x( '$PLURAL$', 'post type general name', '$DOMAIN$' ),&#10;&#9;&#9;'singular_name'      =&gt; _x( '$SINGULAR$', 'post type singular name', '$DOMAIN$' ),&#10;&#9;&#9;'menu_name'          =&gt; _x( '$PLURAL$', 'admin menu', '$DOMAIN$' ),&#10;&#9;&#9;'name_admin_bar'     =&gt; _x( '$SINGULAR$', 'add new $SLUG$ on admin bar', '$DOMAIN$' ),&#10;&#9;&#9;'add_new'            =&gt; _x( 'Add New', 'post_type', '$DOMAIN$' ),&#10;&#9;&#9;'add_new_item'       =&gt; __( 'Add New $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'edit_item'          =&gt; __( 'Edit $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'new_item'           =&gt; __( 'New $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'view_item'          =&gt; __( 'View $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'search_items'       =&gt; __( 'Search $PLURAL$', '$DOMAIN$' ),&#10;&#9;&#9;'not_found'          =&gt; __( 'No $PLURALLOWERCASE$ found.', '$DOMAIN$' ),&#10;&#9;&#9;'not_found_in_trash' =&gt; __( 'No $PLURALLOWERCASE$ found in Trash.', '$DOMAIN$' ),&#10;&#9;&#9;'parent_item_colon'  =&gt; __( 'Parent $SINGULAR$:', '$DOMAIN$' ),&#10;&#9;&#9;'all_items'          =&gt; __( 'All $PLURAL$', '$DOMAIN$' ),&#10;&#9;),&#10;&#9;'public'               =&gt; $PUBLIC$,&#10;&#9;'hierarchical'         =&gt; $HIERARCHICAL$,&#10;&#9;'exclude_from_search'  =&gt; $NOSEARCH$,&#10;&#9;'publicly_queryable'   =&gt; $QUERYABLE$,&#10;&#9;'show_ui'              =&gt; $UI$,&#10;&#9;'show_in_menu'         =&gt; $MENU$,&#10;&#9;'show_in_nav_menus'    =&gt; $NAVMENU$,&#10;&#9;'show_in_admin_bar'    =&gt; $ADMINBAR$,&#10;&#9;'menu_position'        =&gt; $MENUPOS$,&#10;&#9;'menu_icon'            =&gt; $ICON$,&#10;&#9;'capability_type'      =&gt; '$CAPABILITY$',&#10;&#9;'capabilities'         =&gt; array(),&#10;&#9;'map_meta_cap'         =&gt; null,&#10;&#9;'supports'             =&gt; array( 'title', 'editor' ),&#10;&#9;'register_meta_box_cb' =&gt; $METABOX$,&#10;&#9;'taxonomies'           =&gt; array(),&#10;&#9;'has_archive'          =&gt; $ARCHIVE$,&#10;&#9;'rewrite'              =&gt; array(&#10;&#9;&#9;'slug'       =&gt; '$SLUG$',&#10;&#9;&#9;'with_front' =&gt; $WITHFRONT$,&#10;&#9;&#9;'feeds'      =&gt; $FEEDS$,&#10;&#9;&#9;'pages'      =&gt; $PAGES$,&#10;&#9;),&#10;&#9;'query_var'            =&gt; $QUERYVAR$,&#10;&#9;'can_export'           =&gt; $EXPORT$,&#10;) );&#10;$END$" description="register_post_type" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="SLUG" expression="" defaultValue="&quot;post-type&quot;" alwaysStopAt="true" />
     <variable name="DESCRIPTION" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="PLURAL" expression="" defaultValue="&quot;Posts&quot;" alwaysStopAt="true" />
@@ -196,7 +86,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="rt" value="register_taxonomy( '$SLUG$', array($OBJECT$), array(&#10;&#9;'description'       =&gt; '$DESCRIPTION$',&#10;&#9;'labels'            =&gt; array(&#10;&#9;&#9;'name'                       =&gt; _x( '$PLURAL$', 'taxonomy general name', '$DOMAIN$' ),&#10;&#9;&#9;'singular_name'              =&gt; _x( '$SINGULAR$', 'taxonomy singular name', '$DOMAIN$' ),&#10;&#9;&#9;'search_items'               =&gt; __( 'Search $PLURAL$', '$DOMAIN$' ),&#10;&#9;&#9;'popular_items'              =&gt; __( 'Popular $PLURAL$', '$DOMAIN$' ),&#10;&#9;&#9;'all_items'                  =&gt; __( 'All $PLURAL$', '$DOMAIN$' ),&#10;&#9;&#9;'parent_item'                =&gt; __( 'Parent $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'parent_item_colon'          =&gt; __( 'Parent $SINGULAR$:', '$DOMAIN$' ),&#10;&#9;&#9;'edit_item'                  =&gt; __( 'Edit $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'view_item'                  =&gt; __( 'View $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'update_item'                =&gt; __( 'Update $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'add_new_item'               =&gt; __( 'Add New $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'new_item_name'              =&gt; __( 'New $SINGULAR$ Name', '$DOMAIN$' ),&#10;&#9;&#9;'separate_items_with_commas' =&gt; __( 'Separate $PLURALLOWERCASE$ with commas', '$DOMAIN$' ),&#10;&#9;&#9;'add_or_remove_items'        =&gt; __( 'Add or remove $PLURALLOWERCASE$', '$DOMAIN$' ),&#10;&#9;&#9;'choose_from_most_used'      =&gt; __( 'Choose from the most used $PLURALLOWERCASE$', '$DOMAIN$' ),&#10;&#9;&#9;'not_found'                  =&gt; __( 'No $PLURALLOWERCASE$ found.', '$DOMAIN$' ),&#10;&#9;),&#10;&#9;'public'            =&gt; $PUBLIC$,&#10;&#9;'show_ui'           =&gt; $UI$,&#10;&#9;'show_in_nav_menus' =&gt; $MENU$,&#10;&#9;'show_tagcloud'     =&gt; $TAGCLOUD$,&#10;&#9;'meta_box_cb'       =&gt; $METABOX$,&#10;&#9;'show_admin_column' =&gt; $ADMINCOLUMN$,&#10;&#9;'hierarchical'      =&gt; $HIERARCHICAL$,&#10;&#9;'query_var'         =&gt; '$QUERYVAR$',&#10;&#9;'rewrite'           =&gt; array(&#10;&#9;&#9;'slug'         =&gt; '$REWRITESLUG$',&#10;&#9;&#9;'with_front'   =&gt; $REWRITEFRONT$,&#10;&#9;&#9;'hierarchical' =&gt; $REWRITEHIERARCHICAL$,&#10;&#9;),&#10;&#9;'capabilities'      =&gt; array(),&#10;) );" description="register_taxonomy" toReformat="true" toShortenFQNames="true">
+  <template name="rt" value="register_taxonomy( '$SLUG$', array($OBJECT$), array(&#10;&#9;'description'       =&gt; '$DESCRIPTION$',&#10;&#9;'labels'            =&gt; array(&#10;&#9;&#9;'name'                       =&gt; _x( '$PLURAL$', 'taxonomy general name', '$DOMAIN$' ),&#10;&#9;&#9;'singular_name'              =&gt; _x( '$SINGULAR$', 'taxonomy singular name', '$DOMAIN$' ),&#10;&#9;&#9;'search_items'               =&gt; __( 'Search $PLURAL$', '$DOMAIN$' ),&#10;&#9;&#9;'popular_items'              =&gt; __( 'Popular $PLURAL$', '$DOMAIN$' ),&#10;&#9;&#9;'all_items'                  =&gt; __( 'All $PLURAL$', '$DOMAIN$' ),&#10;&#9;&#9;'parent_item'                =&gt; __( 'Parent $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'parent_item_colon'          =&gt; __( 'Parent $SINGULAR$:', '$DOMAIN$' ),&#10;&#9;&#9;'edit_item'                  =&gt; __( 'Edit $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'view_item'                  =&gt; __( 'View $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'update_item'                =&gt; __( 'Update $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'add_new_item'               =&gt; __( 'Add New $SINGULAR$', '$DOMAIN$' ),&#10;&#9;&#9;'new_item_name'              =&gt; __( 'New $SINGULAR$ Name', '$DOMAIN$' ),&#10;&#9;&#9;'separate_items_with_commas' =&gt; __( 'Separate $PLURALLOWERCASE$ with commas', '$DOMAIN$' ),&#10;&#9;&#9;'add_or_remove_items'        =&gt; __( 'Add or remove $PLURALLOWERCASE$', '$DOMAIN$' ),&#10;&#9;&#9;'choose_from_most_used'      =&gt; __( 'Choose from the most used $PLURALLOWERCASE$', '$DOMAIN$' ),&#10;&#9;&#9;'not_found'                  =&gt; __( 'No $PLURALLOWERCASE$ found.', '$DOMAIN$' ),&#10;&#9;),&#10;&#9;'public'            =&gt; $PUBLIC$,&#10;&#9;'show_ui'           =&gt; $UI$,&#10;&#9;'show_in_nav_menus' =&gt; $MENU$,&#10;&#9;'show_tagcloud'     =&gt; $TAGCLOUD$,&#10;&#9;'meta_box_cb'       =&gt; $METABOX$,&#10;&#9;'show_admin_column' =&gt; $ADMINCOLUMN$,&#10;&#9;'hierarchical'      =&gt; $HIERARCHICAL$,&#10;&#9;'query_var'         =&gt; '$QUERYVAR$',&#10;&#9;'rewrite'           =&gt; array(&#10;&#9;&#9;'slug'         =&gt; '$REWRITESLUG$',&#10;&#9;&#9;'with_front'   =&gt; $REWRITEFRONT$,&#10;&#9;&#9;'hierarchical' =&gt; $REWRITEHIERARCHICAL$,&#10;&#9;),&#10;&#9;'capabilities'      =&gt; array(),&#10;) );" description="register_taxonomy" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="SLUG" expression="" defaultValue="&quot;taxonomy&quot;" alwaysStopAt="true" />
     <variable name="OBJECT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
@@ -219,74 +109,26 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="aaf" value="function $method$( $$$var$ ) {&#10;&#9;$END$&#10;}&#10;add_action( '$hook$', '$method$' );" description="add_action &gt; function" toReformat="true" toShortenFQNames="true">
+  <template name="aaf" value="function $method$( $$$var$ ) {&#10;&#9;$END$&#10;}&#10;add_action( '$hook$', '$method$' );" description="add_action &gt; function" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="hook" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="Twig" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
       <option name="PHP String Literal" value="false" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="eh" value="esc_html( $SELECTION$ )" description="esc_html" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="gp" value="get_posts( array(&#10;    'post_type' =&gt; '$posttype$',&#10;    'posts_per_page' =&gt; $number$ &#10;));" description="get_posts" toReformat="true" toShortenFQNames="true">
+  <template name="eh" value="esc_html( $SELECTION$ )" description="esc_html" toReformat="false" toShortenFQNames="true" deactivated="true" />
+  <template name="gp" value="get_posts( array(&#10;    'post_type' =&gt; '$posttype$',&#10;    'posts_per_page' =&gt; $number$ &#10;));" description="get_posts" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="posttype" expression="" defaultValue="&quot;post&quot;" alwaysStopAt="true" />
     <variable name="number" expression="" defaultValue="&quot;-1&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="Twig" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
       <option name="PHP String Literal" value="false" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="loop" value="if ( have_posts() ) {&#10;&#9;while ( have_posts() ) {&#10;&#9;&#9;the_post();&#10;&#9;&#9;$END$&#10;&#9;}&#10;}" description="The Loop" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="wq" value="$query = new WP_Query( array(&#10;&#10;));&#10;&#10;while ( $query-&gt;have_posts() ) {&#10;&#9;$query1-&gt;the_post();&#10;&#9;echo '&lt;li&gt;' . get_the_title() . '&lt;/li&gt;';&#10;}" description="WP_Query" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="loop" value="if ( have_posts() ) {&#10;&#9;while ( have_posts() ) {&#10;&#9;&#9;the_post();&#10;&#9;&#9;$END$&#10;&#9;}&#10;}" description="The Loop" toReformat="false" toShortenFQNames="true" deactivated="true" />
+  <template name="wq" value="$query = new WP_Query( array(&#10;&#10;));&#10;&#10;while ( $query-&gt;have_posts() ) {&#10;&#9;$query1-&gt;the_post();&#10;&#9;echo '&lt;li&gt;' . get_the_title() . '&lt;/li&gt;';&#10;}" description="WP_Query" toReformat="false" toShortenFQNames="true" deactivated="true" />
 </templateSet>

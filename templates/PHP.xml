@@ -101,4 +101,23 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="amet" value="abstract public function $NAME$($PARAMETERS$);" description="abstract public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="aprof" value="abstract protected function $NAME$($PARAMETERS$);" description="abstract public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="tryc" value="try {&#10;    $END$&#10;}&#10;catch ( Exception $e ) {&#10;}" description="Try catch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
