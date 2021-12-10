@@ -120,4 +120,18 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="prii" value="private $type$ $$$var$;&#10;&#10;$END$" description="Private var typed" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="&quot;string&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="proo" value="protected $type$ $$$var$;&#10;&#10;$END$" description="Protected var typed" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="&quot;string&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
