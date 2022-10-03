@@ -15,7 +15,7 @@ These are our custom WordPress live templates for PhpStorm. We have devided them
 ## Usage
 
 * Download the files `php.xml` and `wordpress.xml`
-* Copy them to `~/Library/Application Support/JetBrains/PhpStorm201{x}.{x}/templates` directory.
+* Copy them to `~/Library/Application Support/JetBrains/PhpStorm20{x}.{x}/templates` directory.
 * Restart PhpStorm.
 * The two groups 'PHP' and WordPress' will be activated by default. Disable any group or live template from PHPStorm Preferences > Editor > Live Templates.
 * A list of available abbreviations that will trigger a live template can be found by selecting 'PHP' or WordPress' in PHPStorm Preferences > Editor > Live Templates.
@@ -27,7 +27,7 @@ This is our own WordPress coding styles for PhpStorm, forked from the WordPress.
 ## Usage
 
 * Download the `codestyles/CodepressWordPress.xml` file.
-* Copy it to `~/Library/Application Support/JetBrains/PhpStorm201{x}.{x}/codestyles` directory.
+* Copy it to `~/Library/Application Support/JetBrains/PhpStorm20{x}.{x}/codestyles` directory.
 * Activate the scheme by selecting it in PHPStorm Preferences > Editor > Code Style.
 
 # Code Inspections
@@ -37,7 +37,7 @@ This is our own WordPress code inspections format for PhpStorm
 ## Usage
 
 * Download the `inspection/Codepress.xml` file.
-* Copy it to `~/Library/Application Support/JetBrains/PhpStorm201{x}.{x}/inspection` directory.
+* Copy it to `~/Library/Application Support/JetBrains/PhpStorm20{x}.{x}/inspection` directory.
 * Activate the scheme by selecting 'Codepress' in PHPStorm Preferences > Editor > Inspections.
 
 # Keymaps
@@ -47,7 +47,7 @@ This are our own PHP keymaps for PhpStorm taken from the Laracasts series
 ## Usage
 
 * Download the `keymaps/Laracasts.xml` file.
-* Copy it to `~/Library/Application Support/JetBrains/PhpStorm201{x}.{x}/keymaps` directory.
+* Copy it to `~/Library/Application Support/JetBrains/PhpStorm20{x}.{x}/keymaps` directory.
 * Activate the keymap by selecting 'Laracasts' in PHPStorm Preferences > Keymap.
 
 # File and Code Templates
@@ -57,13 +57,13 @@ This are our own PHP File templates for PhpStorm.
 ## Usage
 
 * Download the content of the `fileTemplates` directory.
-* Copy it to `~/Library/Application Support/JetBrains/PhpStorm201{x}.{x}/fielTemplates` directory.
+* Copy it to `~/Library/Application Support/JetBrains/PhpStorm20{x}.{x}/fileTemplates` directory.
 * Restart PhpStorm.
 
 # Development
 
 * Clone the repo.
-* Symlink the file to the `~/Library/Application Support/JetBrains/PhpStorm201{x}.{x}/<directory>` directory:
+* Symlink the file to the `~/Library/Application Support/JetBrains/PhpStorm20{x}.{x}/<directory>` directory:
 
 	```
 	$ cd ~/Library/Preferences/PhpStorm{xx}/<directory>
