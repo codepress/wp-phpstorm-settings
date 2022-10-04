@@ -1,4 +1,4 @@
-<code_scheme name="Codepress WordPress" version="173">
+<code_scheme name="Website Codepress" version="173">
   <option name="AUTODETECT_INDENTS" value="false" />
   <option name="LINE_SEPARATOR" value="&#10;" />
   <DB2CodeStyleSettings version="6">
@@ -330,6 +330,7 @@
     <option name="ALIGN_PHPDOC_COMMENTS" value="true" />
     <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
     <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
+    <option name="PHPDOC_KEEP_BLANK_LINES" value="false" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
     <option name="VARIABLE_NAMING_STYLE" value="CAMEL_CASE" />
@@ -339,6 +340,7 @@
     <option name="SPACE_BEFORE_UNARY_NOT" value="true" />
     <option name="SPACE_AFTER_UNARY_NOT" value="true" />
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
+    <option name="KEEP_BLANK_LINES_AFTER_LBRACE" value="1" />
   </PHPCodeStyleSettings>
   <PostgresCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
@@ -585,6 +587,11 @@
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
       <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JSON">
+    <indentOptions>
+        <option name="INDENT_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
 </code_scheme>
